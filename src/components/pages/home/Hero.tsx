@@ -2,6 +2,7 @@ import React from 'react'
 import SearchCard from './SearchCard/SearchCard'
 import { Button } from '@/components/ui/button'
 import FilterDrawer from '@/components/common/FilterDrawer'
+import SearchCardPC from '@/components/common/hero/SearchCard'
 
 function Hero() {
   return (
@@ -42,11 +43,8 @@ function Hero() {
         <p className="max-w-2xl text-sm md:text-base lg:text-lg opacity-90">
           This copy is visible on desktop as well as mobile.
         </p>
-        <button
-          className="px-6 py-3 rounded-2xl shadow-lg backdrop-blur-sm bg-white/10 hover:bg-white/20 border border-white/30 transition"
-        >
-          Explore Now
-        </button>
+        <SearchCardPC/>
+
       </div>
     </section>
 
