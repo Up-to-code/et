@@ -1,6 +1,7 @@
 import React from 'react'
 import SearchCard from './SearchCard/SearchCard'
 import { Button } from '@/components/ui/button'
+import FilterDrawer from '@/components/common/FilterDrawer'
 
 function Hero() {
   return (
@@ -17,7 +18,7 @@ function Hero() {
         <p className="text-sm opacity-90">
           This content is visible on mobile as well.
         </p>
-        <SearchCard/>
+         <FilterDrawer />
         {/* <button
           className="px-4 py-2 rounded-xl shadow-lg backdrop-blur-sm bg-white/10 hover:bg-white/20 border border-white/30 transition"
         >
